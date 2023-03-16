@@ -11,8 +11,13 @@ const appearOnScroll = new IntersectionObserver(
             if (!entry.isIntersecting){
                 return;
             } else {
-                entry.target.classList.add("appear");
-                appearOnScroll.unobserve(entry.target);
+                if(entry.target.classList.contains("appear")){
+                    entry.target.classList.remove("appear");
+                }
+                else{
+                    entry.target.classList.add("appear");
+                }
+                //appearOnScroll.unobserve(entry.target);
             }
         })
     }, 
