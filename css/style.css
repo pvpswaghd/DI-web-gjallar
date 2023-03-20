@@ -84,12 +84,14 @@ header {
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    max-height: 400px;
 }
 
 #gjallar-logo {
     max-width: 500px;
     width: 50%;
     margin-bottom: 0;
+    padding-top: 100px;
 }
 
 #stars {
@@ -163,7 +165,7 @@ header {
 
  .more-stuff-grid-photo,
  .more-stuff-grid-text {
-    background: #f4f4f4;
+    background: #001eff;
     padding: 4em 0;
     display: grid;
     grid-gap: 2em;
@@ -171,9 +173,8 @@ header {
     grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(1em, 1fr);
   }
 
-
   @media (max-width: 576px) {
-    .more-stuff-grid-photo, .more-stuff-grid-text {
+    .more-stuff-grid-photo, .more-stuff-grid-text{
         padding: 20px;
         margin: 0px;
         display: flex;
@@ -189,12 +190,12 @@ header {
 
     .from-left {
         grid-column: 2 / 3;
-        transform: translateX(-30%);
+        transform: translateX(-20%);
     }
   
     .from-right {
         grid-column: 3 / 4;
-        transform: translateX(30%);
+        transform: translateX(20%);
     }
 
     .from-left, .from-right {
