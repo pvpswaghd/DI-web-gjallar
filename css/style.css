@@ -561,6 +561,11 @@ html{
     .main__content p {
       margin-top: 2rem;
     }
+    .anniversary__main p {
+      margin-top: 1rem;
+      font-size: 20px;
+      font-weight: 700;
+    }
   
     .main__btn {
       padding: 12px 36px;
@@ -570,6 +575,47 @@ html{
     .slider {
       margin-left: 0;
     }
+
+  .content h1{
+    font-size: 3rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+  
+  }
+
+  .content h2{
+    font-size: 1.5rem;
+    background: #ff8177; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #9114ff,
+      #da22ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #8f0eff,
+      #da22ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
   }
   
   /* Services Section */
