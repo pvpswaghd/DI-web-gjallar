@@ -1,7 +1,26 @@
-*{
+@font-face {
+  font-family: Amplitude Regular;
+  src: local("Amplitude Regular"), local("Amplitude-Regular"),
+    url(./css/Amplitude-Regular.13485c5d.ttf) format("truetype");
+}
+@font-face {
+  font-family: Amplitude Light;
+  src: local("Amplitude Light"), local("Amplitude-Light"),
+    url(./Amplitude-Light.3ff237cd.ttf) format("truetype"),
+    url(./amplitude-light.31187739.eot) format("embedded-opentype");
+}
+@font-face {
+  font-family: Amplitude Medium;
+  src: local("Amplitude Medium"), local("Amplitude-Medium"),
+    url(./Amplitude-Medium.194b03cb.ttf) format("truetype"),
+    url(./Amplitude-Medium.32ff08fb.eot) format("embedded-opentype");
+}
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Amplitude Light, Arial Narrow, sans-serif;
+
 }
 
 body{
