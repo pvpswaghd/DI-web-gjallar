@@ -23,6 +23,12 @@
     font-family: 'Amplitude Light', sans-serif;
     scroll-behavior: smooth;
   }
+
+html{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
  
   #fimbul{
     max-width: 200px;
@@ -86,7 +92,7 @@
  
   #gjallar-logo {
     margin-top: 0px;
-    max-width: 500px;
+    width: 90%;
   }
   .navbar__links {
     color: #fff;
