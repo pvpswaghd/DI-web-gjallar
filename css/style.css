@@ -68,7 +68,7 @@ html{
   #navbar__logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    background-size: 100%;
+    background-size: 90%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -92,7 +92,7 @@ html{
  
   #gjallar-logo {
     margin-top: 0px;
-    width: 90%;
+    width: 70%;
   }
   .navbar__links {
     color: #fff;
@@ -137,6 +137,10 @@ html{
   }
   
   @media screen and (max-width: 960px) {
+    #gjallar-logo {
+      margin-top: 0px;
+      width: 90%;
+    }
     .navbar__container {
       display: flex;
       justify-content: space-between;
